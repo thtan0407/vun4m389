@@ -1,0 +1,49 @@
+.header .header-logo {
+    height: 48px;
+    width: 48px;
+}
+
+.header .header-notification .header-notification_button,
+.header .header-search .header-search_button {
+    width: 34px;
+    height: 34px;
+}
+
+.footer .footer-toolbar {
+    background-image: url('../images/footer-bg.png');
+}
+
+.footer .footer-toolbar .toolbar-item {
+    width: 30%;
+}
+
+.footer .footer-toolbar .toolbar-item .toolbar-item_link {
+    padding: 15px;
+    line-height: 1;
+    height: 70px;
+}
+
+.footer .footer-toolbar .toolbar-item.toolbar-item_floating {
+    width: 40%;
+    top: -40px;
+}
+
+.footer .footer-toolbar .toolbar-item.toolbar-item_floating .toolbar-item_link {
+    background-color: var(--primary-color);
+    width: 60px;
+    height: 60px;
+    flex: 0 0 auto;
+}
+
+.footer .footer-toolbar .toolbar-item.toolbar-item_floating .toolbar-item_link svg{
+    height: 24px;
+    width: 24px;
+}
+
+.footer .footer-toolbar .toolbar-item.toolbar-item_floating .toolbar-item_link:active {
+    background-color: var(--primary-hover);
+}
+
+.section-body {
+    padding: 15px 0 120px;
+}
