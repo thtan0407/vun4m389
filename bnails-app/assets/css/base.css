@@ -396,5 +396,5 @@ textarea:focus {
 .button-theme.button-theme_outline_dark:active {
     color: var(--bs-white);
     border-color: var(--primary-color);
-    background-color: var(--primary-color);
+    background-color: var(--primary-color); 
 }
